@@ -6,8 +6,8 @@ metadata:
     run: udagram-frontend
 spec:
   ports:
-  - port: 8081
-    targetPort: 8081
+  - port: 80
+    targetPort: 80
     protocol: TCP
   type: ClusterIP
   selector:
